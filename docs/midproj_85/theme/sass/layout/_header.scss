@@ -1,0 +1,122 @@
+.header {
+  display: block;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  position: relative;
+  z-index: 99;
+
+  &:before {
+    background: #006341;
+    height: 10px;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+  &:after {
+    position: absolute;
+    background: #1e1e1e;
+    height: 3px;
+    opacity: 0.05;
+    content: '';
+    display: block;
+    width: 100%;
+  }
+
+  .header__container {
+    display: flex;
+    padding: 1.5rem 20px 0 20px;
+    padding-bottom: 0;
+    text-align: left;
+    max-width: 1320px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    .header__main {
+      display: flex;
+
+      .header__logo {
+        width: 62px;
+        & a {
+          background: transparent;
+          text-decoration: none;
+          color: inherit;
+          cursor: pointer;
+          line-height: 1em;
+          display: inline-block;
+          width: 100%;
+        }
+        & a:before {
+          content: '';
+          display: block;
+          background: url(https://www.starbucks.com.tw/objects/images/logo.png);
+          background-size: cover;
+          padding-top: 100%;
+        }
+      }
+      .header__item {
+        margin-left: 2.6rem;
+        margin-top: 1rem;
+        .header__list {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          margin-block-start: 1em;
+          margin-block-end: 0em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+
+          & li {
+            list-style-type: none;
+            font-weight: bold;
+          }
+          & li a {
+            padding: 1em 1em 1.2em;
+            font-size: 1.6rem;
+            letter-spacing: 0.1rem;
+            background: transparent;
+            text-decoration: none;
+            cursor: pointer;
+            line-height: 1em;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .header__sub {
+      display: flex;
+      text-align: left;
+
+      & a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        background: transparent;
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
+        line-height: 1em;
+        display: inline-block;
+        box-sizing: border-box;
+      }
+      & a:before {
+        content: '';
+        display: inline-block;
+        width: 1.6rem;
+        height: 1.6rem;
+        vertical-align: bottom;
+        background-position: 50% 0;
+        background: url(https://www.starbucks.com.tw/objects/images/header_utility_list.png)
+          no-repeat;
+        background-size: 300%;
+      }
+      & a:after {
+        content: '門市查詢';
+      }
+      & a:hover {
+        color: #868383;
+      }
+    }
+  }
+}

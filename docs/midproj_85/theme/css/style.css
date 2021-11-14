@@ -1,0 +1,888 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 10px;
+  font-family: 'Noto Sans TC', '微軟正黑體', 'Microsoft JhengHei',
+    'Apple LiGothic Medium', sans-serif;
+}
+
+.footer {
+  padding: 2.5rem 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  font-size: 1.5rem;
+}
+.footer .footer__top {
+  padding: 2.5rem 0;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  background: #f0f0f0;
+}
+.footer .footer__top .footer__top--container {
+  max-width: 1320px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons {
+  text-align: left;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li {
+  transition: all 0.6s;
+  margin-right: 0.8em;
+  display: inline-block;
+  opacity: 0.7;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  a {
+  height: 30px;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .fb {
+  width: 14px;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .fb:before {
+  content: '';
+  display: block;
+  background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+    no-repeat;
+  background-size: auto 300%;
+  height: 100%;
+  background-position: 0 0;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .ig {
+  width: 30px;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .ig:before {
+  content: '';
+  display: block;
+  background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+    no-repeat;
+  background-size: auto 300%;
+  height: 100%;
+  background-position: 0 50%;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .yt {
+  width: 25px;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .yt:before {
+  content: '';
+  display: block;
+  background: url(https://www.starbucks.com.tw/objects/images/social-icons.png)
+    no-repeat;
+  background-size: auto 300%;
+  height: 100%;
+  background-position: 0 100%;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .line {
+  width: 30px;
+}
+.footer
+  .footer__top
+  .footer__top--container
+  .footer__top--container--socialicons
+  ul
+  li
+  .line:before {
+  content: '';
+  display: block;
+  background: url(https://www.starbucks.com.tw/objects/images/social-icons-line.svg)
+    no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.footer .footer__main {
+  background: #f0f0f0;
+  padding: 3rem 2rem;
+}
+.footer .footer__main .footer__main--container {
+  position: relative;
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global {
+  display: flex;
+  min-height: 166px;
+  box-sizing: border-box;
+  background: url(https://www.starbucks.com.tw/objects/images/wordmark_footer.png)
+    98.5% 0 no-repeat;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: normal;
+  justify-content: normal;
+  align-items: normal;
+  width: 100%;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock {
+  text-align: left;
+  width: 20%;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock
+  h4 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+  font-size: 1.9rem;
+  margin-bottom: 1.2em;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock
+  ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock
+  ol
+  li {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock
+  ol
+  li
+  a {
+  color: #3d3935;
+  font-size: 1.5rem;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+.footer
+  .footer__main
+  .footer__main--container
+  .footer__main--container--global
+  .footer__main--container--global--infoblock
+  .footer__main--container--global--infoblock--green {
+  color: #2a8a15;
+  font-weight: 500;
+}
+.footer .footer__bottom {
+  text-align: left;
+  padding-bottom: 45px;
+  background: #f0f0f0;
+}
+.footer .footer__bottom .footer__bottom--container {
+  max-width: 1320px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer
+  .footer__bottom
+  .footer__bottom--container
+  .footer__bottom--container-footersub {
+  flex-direction: row;
+  color: #666;
+  padding: 1em 0 0.4em;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.footer
+  .footer__bottom
+  .footer__bottom--container
+  .footer__bottom--container-footersub
+  li {
+  margin: 0;
+  padding: 0;
+  display: list-item;
+}
+.footer
+  .footer__bottom
+  .footer__bottom--container
+  .footer__bottom--container-footersub
+  li
+  a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+.footer
+  .footer__bottom
+  .footer__bottom--container
+  .footer__bottom--container-footersub
+  li
+  a:after {
+  content: '│';
+  display: inline-block;
+  margin: 0 0.4em;
+}
+.footer
+  .footer__bottom
+  .footer__bottom--container
+  .footer__bottom--container--copyright {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.header {
+  display: block;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  position: relative;
+  z-index: 99;
+}
+.header:before {
+  background: #006341;
+  height: 10px;
+  content: '';
+  display: block;
+  width: 100%;
+}
+.header:after {
+  position: absolute;
+  background: #1e1e1e;
+  height: 3px;
+  opacity: 0.05;
+  content: '';
+  display: block;
+  width: 100%;
+}
+.header .header__container {
+  display: flex;
+  max-width: 1320px;
+  padding: 1.5rem 20px 0 20px;
+  padding-bottom: 0;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.header .header__container .header__main {
+  display: flex;
+}
+.header .header__container .header__main .header__logo {
+  width: 62px;
+}
+.header .header__container .header__main .header__logo a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+  width: 100%;
+}
+.header .header__container .header__main .header__logo a:before {
+  content: '';
+  display: block;
+  background: url(https://www.starbucks.com.tw/objects/images/logo.png);
+  background-size: cover;
+  padding-top: 100%;
+}
+.header .header__container .header__main .header__item {
+  margin-left: 2.6rem;
+  margin-top: 1rem;
+}
+.header .header__container .header__main .header__item .header__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.header .header__container .header__main .header__item .header__list li {
+  list-style-type: none;
+  font-weight: bold;
+}
+.header .header__container .header__main .header__item .header__list li a {
+  padding: 1em 1em 1.2em;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+.header .header__container .header__sub {
+  display: flex;
+  text-align: left;
+}
+.header .header__container .header__sub a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.header .header__container .header__sub a:before {
+  content: '';
+  display: inline-block;
+  width: 1.6rem;
+  height: 1.6rem;
+  vertical-align: bottom;
+  background-position: 50% 0;
+  background: url(https://www.starbucks.com.tw/objects/images/header_utility_list.png)
+    no-repeat;
+  background-size: 300%;
+}
+.header .header__container .header__sub a:after {
+  content: '門市查詢';
+}
+.header .header__container .header__sub a:hover {
+  color: #868383;
+}
+
+.wrap {
+  height: 100%;
+  padding-bottom: 48px;
+  width: 100%;
+}
+.wrap .content {
+  padding: 0 20px;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.wrap .content .adpage1 {
+  max-height: 600px;
+  margin: 32px 0px 0px;
+  background: #e7dbd3;
+  display: flex;
+  align-items: center;
+}
+.wrap .content .adpage1 .img-block {
+  width: 100%;
+  height: auto;
+}
+.wrap .content .adpage1 .img-block img {
+  width: 80%;
+  height: auto;
+}
+.wrap .content .adpage1 .text-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 20px 135px 0 0;
+}
+.wrap .content .adpage1 .text-block img {
+  width: 150%;
+  height: auto;
+}
+.wrap .content .adpage1 .btn {
+  margin: 30px;
+  cursor: pointer;
+  font-size: 14pxm;
+  font-weight: bold;
+  color: orangered;
+  border: 1px solid orangered;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+.wrap .content .adpage2 {
+  max-height: 600px;
+  padding: 0;
+  margin: 32px 0px 0px;
+  background: #1e3932;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.wrap .content .adpage2 .img-block img {
+  width: 640px;
+  height: auto;
+}
+.wrap .content .adpage2 .text-block {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrap .content .adpage2 .btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto 0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+.wrap .content .adpage3 {
+  max-height: 600px;
+  padding: 0;
+  margin: 32px 0px 0px;
+  background: #1e3932;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.wrap .content .adpage3 .img-block img {
+  width: 640px;
+  height: auto;
+}
+.wrap .content .adpage3 .text-block {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrap .content .adpage3 .btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto 0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+.wrap .content .adpage4 {
+  padding: 0;
+  margin: 32px 0px 0px;
+  background: #008879;
+  display: flex;
+  flex-direction: row;
+}
+.wrap .content .adpage4 .img-block img {
+  width: 150%;
+  height: auto;
+}
+.wrap .content .adpage4 .text-block img {
+  margin: 15% 0 0 25%;
+  width: 75%;
+}
+.wrap .content .adpage5 {
+  padding: 0;
+  margin: 32px 0px 0px;
+  height: 387px;
+  background: #1e3932;
+  display: flex;
+}
+.wrap .content .adpage5 .msr {
+  width: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.wrap .content .adpage5 .msr .msr-star {
+  margin-bottom: 100px;
+  width: 50px;
+  height: auto;
+}
+.wrap .content .adpage5 .msr .msr1 {
+  width: 300px;
+  height: auto;
+}
+.wrap .content .adpage5 .text-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: #fff;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrap .content .adpage5 .goldreward {
+  padding: 50px;
+  width: 640px;
+  align-items: center;
+  text-align: center;
+  background: #00704a;
+}
+.wrap .content .adpage5 .goldreward .img-block img {
+  width: 145px;
+  height: auto;
+}
+.wrap .content .adpage5 .btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto 0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+.wrap .content .adpage6 {
+  padding: 0;
+  margin: 32px 0px 0px;
+  background: #1e3932;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.wrap .content .adpage6 .img-block img {
+  width: 640px;
+  height: auto;
+}
+.wrap .content .adpage6 .text-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrap .content .adpage6 .btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto 0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+.wrap .content .adpage7 {
+  padding: 0;
+  margin: 32px 0px 0px;
+  background: #1e3932;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.wrap .content .adpage7 .img-block img {
+  width: 640px;
+  height: auto;
+}
+.wrap .content .adpage7 .text-block {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  width: 100%;
+  padding: 0 10px;
+}
+.wrap .content .adpage7 .btn {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 45px;
+  padding: 0.5em 1.5em;
+  margin: 32px auto 0;
+  min-width: 4em;
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+
+.top {
+  background: #f4f4f4;
+  display: block;
+  box-sizing: border-box;
+}
+
+.top .container {
+  max-width: 1320px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.top .container ul {
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  color: #53534a;
+  text-align: left;
+  list-style: none;
+}
+
+.top .container ul li {
+  display: inline-block;
+  color: #a1a1a1;
+  font-weight: 300;
+}
+
+.top .container ul li a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.top .container ul li::after {
+  content: '‧';
+  padding: 0 0 0 0.4rem;
+  text-align: center;
+  color: #a1a1a1;
+}
+
+.wrap-coffee {
+  display: block;
+  box-sizing: border-box;
+}
+
+.wrap-coffee .coffee-content {
+  max-width: 1320px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrap-coffee .coffee-content .view-list {
+  text-align: left;
+  margin: 2rem 0;
+  list-style: none;
+  display: block;
+}
+
+.wrap-coffee .coffee-content .view-list li {
+  border: solid 1px #a5a8aa;
+  padding: 0.4em 0.8em;
+  border-radius: 0.4rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem 1rem 0;
+  cursor: pointer;
+}
+
+.wrap-coffee .coffee-content article {
+  text-align: left;
+  margin-bottom: 5rem;
+  display: block;
+  box-sizing: border-box;
+}
+
+.wrap-coffee .coffee-content article h2 {
+  font-size: 2.7rem;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+.wrap-coffee .coffee-content article ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  list-style: none;
+}
+
+.wrap-coffee .coffee-content article ul li {
+  width: calc(100%/5 - 2.2rem);
+  margin: 1.5rem 2.5rem 1.5rem 0;
+}
+
+.wrap-coffee .coffee-content article ul li a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: block;
+  box-sizing: border-box;
+}
+
+.wrap-coffee .coffee-content article ul li a .column-img {
+  margin-bottom: 1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.wrap-coffee .coffee-content article ul li a .column-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  border: 0;
+  vertical-align: middle;
+  line-height: 0;
+  font-size: 0;
+}
+
+.wrap-coffee .coffee-content article ul li a .column-text {
+  font-size: 1.3rem;
+  line-height: 1.5em;
+}
+
+.fields {
+  display: block;
+  box-sizing: border-box;
+}
+
+.fields .container {
+  max-width: 1320px;
+  padding: 0 20px;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fields .container ul {
+  padding: 0.4rem 0;
+  font-size: 1.5rem;
+  color: #53534a;
+  text-align: left;
+  list-style: none;
+  display: flex;
+}
+
+.fields .container ul li {
+  display: inline-block;
+  color: #a1a1a1;
+  font-weight: 300;
+}
+
+.fields .container ul li a {
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1em;
+  display: inline-block;
+}
+
+.fields .container ul li::after {
+  content: '‧';
+  padding: 0 0 0 0.4rem;
+  text-align: center;
+  color: #a1a1a1;
+}
+/*# sourceMappingURL=style.css.map */
