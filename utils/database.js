@@ -26,7 +26,7 @@ if (isProduction) {
     port: '5432',
   });
 }
-
+//postgres://htjxakfjbmxhub:c6a1f7481a1f8af27fe2e10d8d78afc820f59b37c3c26f368769e5e101609c12@ec2-54-221-74-111.compute-1.amazonaws.com:5432/d2a61uo9pid91g
 // const pool = new Pool({
 //   user: 'postgres',
 //   host: 'localhost',
@@ -35,10 +35,10 @@ if (isProduction) {
 //   port: 5432,
 // });
 
-// pool.query('SELECT * FROM category_87', (err, res) => {
+//   pool.query('SELECT * FROM OtherDrinks', (err, res) => {
 //   console.log(JSON.stringify(res.rows));
 //   pool.end();
-// });
+//  });
 
 module.exports = pool;
 
